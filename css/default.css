@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body, header, footer, section, div, nav, p, h1, h2, h3, h4, h5, h6,
+ul, li, ol, li, dl, dt, dd, blockquote, form, fieldset, legend, iuput, select, textarea,
+button, table, caption, thead, tbody, tfoot, th, td, figure, figcaption{ margin: 0px; padding: 0px;}
+img{display: block; border: 0px;}
+ul, ol, li{list-style: none;}
+a{text-decoration: none;}
+h1, h2, h3, h4, h5, h6{font-size: 1em; }
+address, em, i{ font-style: normal;}
+q::before, q::after{ content:"";}
+table{ border-collapse: collapse; border-spacing: 0px;}
+caption, legend, hr{display: none;}
+textarea{ resize: none;}
+fieldset{ border: 0px none;}
+input, select, button, textarea{ box-sizing: border-box;}
+
+
+/* text-overflow - 설정 */
+/* white-space: nowrap; overflow: hidden; text-overflow:ellipsis; */
+
+/* ul 특수기호 설정 */
+/* 태그::before{content:"\b7\a0"} */
